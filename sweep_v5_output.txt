@@ -1,0 +1,290 @@
+Requirement already satisfied: numpy<2.0.0 in /home/atml_team051/.local/lib/python3.11/site-packages (1.26.4)
+Found existing installation: opencv-python-headless 4.8.1.78
+Uninstalling opencv-python-headless-4.8.1.78:
+  Successfully uninstalled opencv-python-headless-4.8.1.78
+Collecting opencv-python-headless==4.8.1.78
+  Using cached opencv_python_headless-4.8.1.78-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (19 kB)
+Requirement already satisfied: numpy>=1.21.2 in /home/atml_team051/.local/lib/python3.11/site-packages (from opencv-python-headless==4.8.1.78) (1.26.4)
+Using cached opencv_python_headless-4.8.1.78-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (49.1 MB)
+Installing collected packages: opencv-python-headless
+Successfully installed opencv-python-headless-4.8.1.78
+Found existing installation: onnxruntime 1.19.2
+Uninstalling onnxruntime-1.19.2:
+  Successfully uninstalled onnxruntime-1.19.2
+Collecting onnxruntime==1.19.2
+  Using cached onnxruntime-1.19.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl.metadata (4.5 kB)
+Requirement already satisfied: coloredlogs in /home/atml_team051/.local/lib/python3.11/site-packages (from onnxruntime==1.19.2) (15.0.1)
+Requirement already satisfied: flatbuffers in /home/atml_team051/.local/lib/python3.11/site-packages (from onnxruntime==1.19.2) (25.12.19)
+Requirement already satisfied: numpy>=1.21.6 in /home/atml_team051/.local/lib/python3.11/site-packages (from onnxruntime==1.19.2) (1.26.4)
+Requirement already satisfied: packaging in /home/atml_team051/.local/lib/python3.11/site-packages (from onnxruntime==1.19.2) (26.2)
+Requirement already satisfied: protobuf in /home/atml_team051/.local/lib/python3.11/site-packages (from onnxruntime==1.19.2) (7.35.1)
+Requirement already satisfied: sympy in /home/atml_team051/.local/lib/python3.11/site-packages (from onnxruntime==1.19.2) (1.14.0)
+Requirement already satisfied: humanfriendly>=9.1 in /home/atml_team051/.local/lib/python3.11/site-packages (from coloredlogs->onnxruntime==1.19.2) (10.0)
+Requirement already satisfied: mpmath<1.4,>=1.1.0 in /home/atml_team051/.local/lib/python3.11/site-packages (from sympy->onnxruntime==1.19.2) (1.3.0)
+Using cached onnxruntime-1.19.2-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (13.2 MB)
+Installing collected packages: onnxruntime
+Successfully installed onnxruntime-1.19.2
+Requirement already satisfied: huggingface_hub==0.24.6 in /home/atml_team051/.local/lib/python3.11/site-packages (0.24.6)
+Requirement already satisfied: imwatermark in /home/atml_team051/.local/lib/python3.11/site-packages (0.0.2)
+Requirement already satisfied: scikit-image in /home/atml_team051/.local/lib/python3.11/site-packages (0.24.0)
+Requirement already satisfied: PyWavelets in /home/atml_team051/.local/lib/python3.11/site-packages (1.9.0)
+Requirement already satisfied: filelock in /home/atml_team051/.local/lib/python3.11/site-packages (from huggingface_hub==0.24.6) (3.29.5)
+Requirement already satisfied: fsspec>=2023.5.0 in /home/atml_team051/.local/lib/python3.11/site-packages (from huggingface_hub==0.24.6) (2026.6.0)
+Requirement already satisfied: packaging>=20.9 in /home/atml_team051/.local/lib/python3.11/site-packages (from huggingface_hub==0.24.6) (26.2)
+Requirement already satisfied: pyyaml>=5.1 in /home/atml_team051/.local/lib/python3.11/site-packages (from huggingface_hub==0.24.6) (6.0.3)
+Requirement already satisfied: requests in /opt/conda/lib/python3.11/site-packages (from huggingface_hub==0.24.6) (2.32.3)
+Requirement already satisfied: tqdm>=4.42.1 in /home/atml_team051/.local/lib/python3.11/site-packages (from huggingface_hub==0.24.6) (4.68.3)
+Requirement already satisfied: typing-extensions>=3.7.4.3 in /home/atml_team051/.local/lib/python3.11/site-packages (from huggingface_hub==0.24.6) (4.16.0)
+Requirement already satisfied: numpy in /home/atml_team051/.local/lib/python3.11/site-packages (from imwatermark) (1.26.4)
+Requirement already satisfied: imhist in /home/atml_team051/.local/lib/python3.11/site-packages (from imwatermark) (0.0.4)
+Requirement already satisfied: scipy>=1.9 in /home/atml_team051/.local/lib/python3.11/site-packages (from scikit-image) (1.17.1)
+Requirement already satisfied: networkx>=2.8 in /home/atml_team051/.local/lib/python3.11/site-packages (from scikit-image) (3.6.1)
+Requirement already satisfied: pillow>=9.1 in /home/atml_team051/.local/lib/python3.11/site-packages (from scikit-image) (12.3.0)
+Requirement already satisfied: imageio>=2.33 in /home/atml_team051/.local/lib/python3.11/site-packages (from scikit-image) (2.37.3)
+Requirement already satisfied: tifffile>=2022.8.12 in /home/atml_team051/.local/lib/python3.11/site-packages (from scikit-image) (2026.3.3)
+Requirement already satisfied: lazy-loader>=0.4 in /home/atml_team051/.local/lib/python3.11/site-packages (from scikit-image) (0.5)
+Requirement already satisfied: charset-normalizer<4,>=2 in /opt/conda/lib/python3.11/site-packages (from requests->huggingface_hub==0.24.6) (3.3.2)
+Requirement already satisfied: idna<4,>=2.5 in /home/atml_team051/.local/lib/python3.11/site-packages (from requests->huggingface_hub==0.24.6) (3.18)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /opt/conda/lib/python3.11/site-packages (from requests->huggingface_hub==0.24.6) (2.2.2)
+Requirement already satisfied: certifi>=2017.4.17 in /home/atml_team051/.local/lib/python3.11/site-packages (from requests->huggingface_hub==0.24.6) (2026.6.17)
+
+=== StableSignature (48 bits) ===
+  Downloading stable_signature.onnx...
+  Done (1199 KB)
+  Model inputs:
+    name='image'  shape=['batch_size', 3, 512, 512]  type=tensor(float)
+  Model outputs:
+    name='decoded'  shape=['batch_size', 48]  type=tensor(float)
+
+  Test decode on WM_3/first image:
+    output[0] shape=(1, 48)  min=-0.121  max=0.065  mean=-0.000
+  bits (first 48): 001111100010110000111100010001010101101100101101
+
+--- StableSignature (48 bits) ---
+    output[0] shape=(1, 48)  min=-0.127  max=0.083  mean=-0.004
+    output[0] shape=(1, 48)  min=-0.106  max=0.088  mean=0.003
+    output[0] shape=(1, 48)  min=-0.051  max=0.116  mean=0.005
+    output[0] shape=(1, 48)  min=-0.054  max=0.082  mean=0.005
+    output[0] shape=(1, 48)  min=-0.096  max=0.089  mean=0.004
+    output[0] shape=(1, 48)  min=-0.069  max=0.081  mean=0.006
+    output[0] shape=(1, 48)  min=-0.072  max=0.080  mean=-0.000
+    output[0] shape=(1, 48)  min=-0.082  max=0.092  mean=0.001
+    output[0] shape=(1, 48)  min=-0.080  max=0.110  mean=0.001
+    output[0] shape=(1, 48)  min=-0.057  max=0.084  mean=0.006
+    output[0] shape=(1, 48)  min=-0.145  max=0.119  mean=0.001
+    output[0] shape=(1, 48)  min=-0.039  max=0.113  mean=0.007
+    output[0] shape=(1, 48)  min=-0.109  max=0.077  mean=-0.009
+    output[0] shape=(1, 48)  min=-0.048  max=0.081  mean=0.006
+    output[0] shape=(1, 48)  min=-0.054  max=0.100  mean=0.005
+    output[0] shape=(1, 48)  min=-0.073  max=0.107  mean=0.005
+    output[0] shape=(1, 48)  min=-0.071  max=0.092  mean=0.003
+    output[0] shape=(1, 48)  min=-0.104  max=0.088  mean=0.008
+    output[0] shape=(1, 48)  min=-0.046  max=0.148  mean=0.005
+    output[0] shape=(1, 48)  min=-0.103  max=0.158  mean=0.003
+    output[0] shape=(1, 48)  min=-0.093  max=0.091  mean=-0.000
+    output[0] shape=(1, 48)  min=-0.089  max=0.096  mean=-0.002
+    output[0] shape=(1, 48)  min=-0.044  max=0.093  mean=0.006
+    output[0] shape=(1, 48)  min=-0.041  max=0.127  mean=0.006
+    output[0] shape=(1, 48)  min=-0.118  max=0.106  mean=0.004
+  WM_1: agree=0.756  n=25  msg=101110010010110111101001010000100101111000011111
+    output[0] shape=(1, 48)  min=-0.137  max=0.147  mean=-0.015
+    output[0] shape=(1, 48)  min=-0.141  max=0.083  mean=0.001
+    output[0] shape=(1, 48)  min=-0.073  max=0.083  mean=0.002
+    output[0] shape=(1, 48)  min=-0.054  max=0.097  mean=0.012
+    output[0] shape=(1, 48)  min=-0.072  max=0.065  mean=-0.001
+    output[0] shape=(1, 48)  min=-0.047  max=0.131  mean=0.004
+    output[0] shape=(1, 48)  min=-0.147  max=0.151  mean=0.003
+    output[0] shape=(1, 48)  min=-0.078  max=0.084  mean=0.008
+    output[0] shape=(1, 48)  min=-0.080  max=0.120  mean=0.000
+    output[0] shape=(1, 48)  min=-0.102  max=0.097  mean=0.001
+    output[0] shape=(1, 48)  min=-0.054  max=0.132  mean=0.007
+    output[0] shape=(1, 48)  min=-0.129  max=0.115  mean=-0.003
+    output[0] shape=(1, 48)  min=-0.077  max=0.095  mean=0.005
+    output[0] shape=(1, 48)  min=-0.111  max=0.088  mean=0.008
+    output[0] shape=(1, 48)  min=-0.090  max=0.093  mean=0.001
+    output[0] shape=(1, 48)  min=-0.074  max=0.081  mean=0.008
+    output[0] shape=(1, 48)  min=-0.074  max=0.098  mean=0.005
+    output[0] shape=(1, 48)  min=-0.105  max=0.094  mean=0.001
+    output[0] shape=(1, 48)  min=-0.109  max=0.138  mean=0.000
+    output[0] shape=(1, 48)  min=-0.064  max=0.134  mean=0.007
+    output[0] shape=(1, 48)  min=-0.094  max=0.106  mean=-0.002
+    output[0] shape=(1, 48)  min=-0.121  max=0.131  mean=0.005
+    output[0] shape=(1, 48)  min=-0.080  max=0.142  mean=0.003
+    output[0] shape=(1, 48)  min=-0.041  max=0.107  mean=0.008
+    output[0] shape=(1, 48)  min=-0.105  max=0.092  mean=0.007
+  WM_2: agree=0.723  n=25  msg=111110010011110111101001000000110111111100001011
+    output[0] shape=(1, 48)  min=-0.121  max=0.065  mean=-0.000
+    output[0] shape=(1, 48)  min=-0.100  max=0.105  mean=0.003
+    output[0] shape=(1, 48)  min=-0.149  max=0.107  mean=0.005
+    output[0] shape=(1, 48)  min=-0.117  max=0.117  mean=-0.006
+    output[0] shape=(1, 48)  min=-0.102  max=0.093  mean=0.001
+    output[0] shape=(1, 48)  min=-0.123  max=0.121  mean=-0.004
+    output[0] shape=(1, 48)  min=-0.169  max=0.180  mean=0.002
+    output[0] shape=(1, 48)  min=-0.100  max=0.098  mean=0.005
+    output[0] shape=(1, 48)  min=-0.077  max=0.084  mean=0.011
+    output[0] shape=(1, 48)  min=-0.104  max=0.098  mean=0.002
+    output[0] shape=(1, 48)  min=-0.059  max=0.124  mean=0.003
+    output[0] shape=(1, 48)  min=-0.127  max=0.134  mean=0.001
+    output[0] shape=(1, 48)  min=-0.060  max=0.071  mean=0.007
+    output[0] shape=(1, 48)  min=-0.226  max=0.175  mean=-0.015
+    output[0] shape=(1, 48)  min=-0.080  max=0.097  mean=0.005
+    output[0] shape=(1, 48)  min=-0.109  max=0.144  mean=0.000
+    output[0] shape=(1, 48)  min=-0.163  max=0.118  mean=-0.005
+    output[0] shape=(1, 48)  min=-0.033  max=0.116  mean=0.010
+    output[0] shape=(1, 48)  min=-0.080  max=0.081  mean=0.004
+    output[0] shape=(1, 48)  min=-0.095  max=0.125  mean=0.001
+    output[0] shape=(1, 48)  min=-0.056  max=0.078  mean=0.008
+    output[0] shape=(1, 48)  min=-0.093  max=0.102  mean=0.004
+    output[0] shape=(1, 48)  min=-0.079  max=0.073  mean=0.006
+    output[0] shape=(1, 48)  min=-0.091  max=0.119  mean=0.013
+    output[0] shape=(1, 48)  min=-0.053  max=0.067  mean=0.012
+  WM_3: agree=0.719  n=25  msg=010110110011110010001010111101110101101100011101
+    output[0] shape=(1, 48)  min=-0.114  max=0.131  mean=-0.007
+    output[0] shape=(1, 48)  min=-0.073  max=0.108  mean=0.001
+    output[0] shape=(1, 48)  min=-0.135  max=0.104  mean=-0.008
+    output[0] shape=(1, 48)  min=-0.085  max=0.080  mean=0.001
+    output[0] shape=(1, 48)  min=-0.163  max=0.142  mean=-0.010
+    output[0] shape=(1, 48)  min=-0.102  max=0.097  mean=0.004
+    output[0] shape=(1, 48)  min=-0.064  max=0.091  mean=0.003
+    output[0] shape=(1, 48)  min=-0.085  max=0.104  mean=0.003
+    output[0] shape=(1, 48)  min=-0.090  max=0.109  mean=0.006
+    output[0] shape=(1, 48)  min=-0.122  max=0.083  mean=-0.003
+    output[0] shape=(1, 48)  min=-0.049  max=0.130  mean=0.006
+    output[0] shape=(1, 48)  min=-0.116  max=0.123  mean=-0.004
+    output[0] shape=(1, 48)  min=-0.090  max=0.114  mean=0.003
+    output[0] shape=(1, 48)  min=-0.168  max=0.110  mean=-0.001
+    output[0] shape=(1, 48)  min=-0.036  max=0.104  mean=0.007
+    output[0] shape=(1, 48)  min=-0.095  max=0.125  mean=-0.005
+    output[0] shape=(1, 48)  min=-0.116  max=0.100  mean=-0.004
+    output[0] shape=(1, 48)  min=-0.152  max=0.117  mean=0.001
+    output[0] shape=(1, 48)  min=-0.197  max=0.115  mean=-0.001
+    output[0] shape=(1, 48)  min=-0.071  max=0.088  mean=-0.001
+    output[0] shape=(1, 48)  min=-0.146  max=0.113  mean=-0.011
+    output[0] shape=(1, 48)  min=-0.094  max=0.085  mean=-0.005
+    output[0] shape=(1, 48)  min=-0.109  max=0.130  mean=0.004
+    output[0] shape=(1, 48)  min=-0.095  max=0.080  mean=0.001
+    output[0] shape=(1, 48)  min=-0.097  max=0.133  mean=0.000
+  WM_4: agree=0.767  n=25  msg=111110010010110011001011010000100101111100011001
+    output[0] shape=(1, 48)  min=-0.031  max=0.144  mean=0.006
+    output[0] shape=(1, 48)  min=-0.167  max=0.182  mean=-0.006
+    output[0] shape=(1, 48)  min=-0.071  max=0.122  mean=0.006
+    output[0] shape=(1, 48)  min=-0.146  max=0.128  mean=-0.002
+    output[0] shape=(1, 48)  min=-0.231  max=0.209  mean=0.009
+    output[0] shape=(1, 48)  min=-0.106  max=0.117  mean=0.004
+    output[0] shape=(1, 48)  min=-0.065  max=0.112  mean=0.006
+    output[0] shape=(1, 48)  min=-0.046  max=0.099  mean=0.007
+    output[0] shape=(1, 48)  min=-0.081  max=0.104  mean=0.007
+    output[0] shape=(1, 48)  min=-0.098  max=0.147  mean=0.004
+    output[0] shape=(1, 48)  min=-0.085  max=0.094  mean=0.001
+    output[0] shape=(1, 48)  min=-0.153  max=0.173  mean=0.001
+    output[0] shape=(1, 48)  min=-0.122  max=0.143  mean=0.002
+    output[0] shape=(1, 48)  min=-0.086  max=0.115  mean=0.001
+    output[0] shape=(1, 48)  min=-0.093  max=0.109  mean=0.006
+    output[0] shape=(1, 48)  min=-0.081  max=0.103  mean=0.006
+    output[0] shape=(1, 48)  min=-0.070  max=0.104  mean=0.004
+    output[0] shape=(1, 48)  min=-0.089  max=0.124  mean=0.007
+    output[0] shape=(1, 48)  min=-0.041  max=0.139  mean=0.006
+    output[0] shape=(1, 48)  min=-0.142  max=0.177  mean=0.011
+    output[0] shape=(1, 48)  min=-0.276  max=0.186  mean=-0.008
+    output[0] shape=(1, 48)  min=-0.069  max=0.125  mean=0.006
+    output[0] shape=(1, 48)  min=-0.112  max=0.090  mean=0.004
+    output[0] shape=(1, 48)  min=-0.194  max=0.210  mean=0.015
+    output[0] shape=(1, 48)  min=-0.207  max=0.207  mean=0.007
+  WM_5: agree=0.760  n=25  msg=110101010010111010100000101001110011101001101111
+    output[0] shape=(1, 48)  min=-0.108  max=0.098  mean=-0.000
+    output[0] shape=(1, 48)  min=-0.076  max=0.104  mean=0.002
+    output[0] shape=(1, 48)  min=-0.076  max=0.073  mean=0.003
+    output[0] shape=(1, 48)  min=-0.099  max=0.130  mean=0.003
+    output[0] shape=(1, 48)  min=-0.182  max=0.149  mean=-0.009
+    output[0] shape=(1, 48)  min=-0.071  max=0.095  mean=0.006
+    output[0] shape=(1, 48)  min=-0.073  max=0.062  mean=0.000
+    output[0] shape=(1, 48)  min=-0.068  max=0.113  mean=0.000
+    output[0] shape=(1, 48)  min=-0.108  max=0.109  mean=-0.002
+    output[0] shape=(1, 48)  min=-0.088  max=0.072  mean=0.001
+    output[0] shape=(1, 48)  min=-0.093  max=0.072  mean=-0.003
+    output[0] shape=(1, 48)  min=-0.081  max=0.093  mean=0.001
+    output[0] shape=(1, 48)  min=-0.049  max=0.133  mean=0.005
+    output[0] shape=(1, 48)  min=-0.062  max=0.142  mean=0.004
+    output[0] shape=(1, 48)  min=-0.063  max=0.115  mean=0.006
+    output[0] shape=(1, 48)  min=-0.081  max=0.102  mean=-0.005
+    output[0] shape=(1, 48)  min=-0.129  max=0.110  mean=0.001
+    output[0] shape=(1, 48)  min=-0.110  max=0.149  mean=-0.001
+    output[0] shape=(1, 48)  min=-0.065  max=0.092  mean=0.004
+    output[0] shape=(1, 48)  min=-0.073  max=0.112  mean=0.006
+    output[0] shape=(1, 48)  min=-0.115  max=0.133  mean=-0.003
+    output[0] shape=(1, 48)  min=-0.162  max=0.100  mean=0.004
+    output[0] shape=(1, 48)  min=-0.094  max=0.088  mean=0.002
+    output[0] shape=(1, 48)  min=-0.101  max=0.087  mean=-0.001
+    output[0] shape=(1, 48)  min=-0.096  max=0.074  mean=-0.002
+  WM_6: agree=0.750  n=25  msg=111110010010110011100000000000100101111000001101
+    output[0] shape=(1, 48)  min=-0.100  max=0.085  mean=-0.006
+    output[0] shape=(1, 48)  min=-0.075  max=0.091  mean=0.001
+    output[0] shape=(1, 48)  min=-0.071  max=0.066  mean=0.001
+    output[0] shape=(1, 48)  min=-0.063  max=0.092  mean=0.006
+    output[0] shape=(1, 48)  min=-0.061  max=0.108  mean=0.005
+    output[0] shape=(1, 48)  min=-0.107  max=0.099  mean=0.002
+    output[0] shape=(1, 48)  min=-0.072  max=0.106  mean=0.003
+    output[0] shape=(1, 48)  min=-0.042  max=0.126  mean=0.002
+    output[0] shape=(1, 48)  min=-0.059  max=0.098  mean=0.001
+    output[0] shape=(1, 48)  min=-0.115  max=0.104  mean=-0.000
+    output[0] shape=(1, 48)  min=-0.104  max=0.107  mean=0.006
+    output[0] shape=(1, 48)  min=-0.085  max=0.145  mean=-0.000
+    output[0] shape=(1, 48)  min=-0.086  max=0.064  mean=-0.001
+    output[0] shape=(1, 48)  min=-0.045  max=0.125  mean=-0.000
+    output[0] shape=(1, 48)  min=-0.084  max=0.114  mean=-0.004
+    output[0] shape=(1, 48)  min=-0.118  max=0.152  mean=-0.009
+    output[0] shape=(1, 48)  min=-0.107  max=0.119  mean=0.005
+    output[0] shape=(1, 48)  min=-0.044  max=0.108  mean=0.007
+    output[0] shape=(1, 48)  min=-0.077  max=0.101  mean=0.002
+    output[0] shape=(1, 48)  min=-0.033  max=0.106  mean=0.006
+    output[0] shape=(1, 48)  min=-0.039  max=0.120  mean=0.005
+    output[0] shape=(1, 48)  min=-0.076  max=0.094  mean=0.001
+    output[0] shape=(1, 48)  min=-0.059  max=0.147  mean=0.002
+    output[0] shape=(1, 48)  min=-0.113  max=0.073  mean=0.003
+    output[0] shape=(1, 48)  min=-0.084  max=0.160  mean=0.013
+  WM_7: agree=0.668  n=25  msg=110101010010110110001000000000011101011010101101
+    output[0] shape=(1, 48)  min=-0.099  max=0.117  mean=0.009
+    output[0] shape=(1, 48)  min=-0.079  max=0.091  mean=0.004
+    output[0] shape=(1, 48)  min=-0.045  max=0.103  mean=0.005
+    output[0] shape=(1, 48)  min=-0.044  max=0.136  mean=0.003
+    output[0] shape=(1, 48)  min=-0.098  max=0.096  mean=0.002
+    output[0] shape=(1, 48)  min=-0.094  max=0.142  mean=0.002
+    output[0] shape=(1, 48)  min=-0.068  max=0.071  mean=0.002
+    output[0] shape=(1, 48)  min=-0.060  max=0.109  mean=0.001
+    output[0] shape=(1, 48)  min=-0.034  max=0.156  mean=0.008
+    output[0] shape=(1, 48)  min=-0.049  max=0.129  mean=0.007
+    output[0] shape=(1, 48)  min=-0.040  max=0.072  mean=0.007
+    output[0] shape=(1, 48)  min=-0.045  max=0.143  mean=0.004
+    output[0] shape=(1, 48)  min=-0.093  max=0.122  mean=0.009
+    output[0] shape=(1, 48)  min=-0.054  max=0.136  mean=-0.000
+    output[0] shape=(1, 48)  min=-0.058  max=0.109  mean=0.004
+    output[0] shape=(1, 48)  min=-0.071  max=0.133  mean=-0.000
+    output[0] shape=(1, 48)  min=-0.063  max=0.054  mean=-0.005
+    output[0] shape=(1, 48)  min=-0.085  max=0.096  mean=0.005
+    output[0] shape=(1, 48)  min=-0.058  max=0.087  mean=0.012
+    output[0] shape=(1, 48)  min=-0.127  max=0.212  mean=-0.006
+    output[0] shape=(1, 48)  min=-0.070  max=0.084  mean=0.004
+    output[0] shape=(1, 48)  min=-0.064  max=0.076  mean=-0.003
+    output[0] shape=(1, 48)  min=-0.127  max=0.102  mean=0.003
+    output[0] shape=(1, 48)  min=-0.131  max=0.125  mean=0.004
+    output[0] shape=(1, 48)  min=-0.130  max=0.179  mean=0.004
+  WM_8: agree=0.651  n=25  msg=111101010011110110101000100000101100111010111101
+
+=== RivaGAN-32 on all folders ===
+  WM_1: no decodes
+  WM_2: no decodes
+  WM_3: no decodes
+  WM_4: no decodes
+  WM_5: no decodes
+  WM_6: no decodes
+  WM_7: no decodes
+  WM_8: no decodes
+
+=== Residual pixel confidence analysis ===
+  WM_3 (nlm5): NCC=0.462  sign_consist=0.518  rms=1.210  strong_pct=0.008
+  WM_4 (median3): NCC=0.850  sign_consist=0.875  rms=1.165  strong_pct=0.009
+  WM_5 (wavelet): NCC=0.849  sign_consist=0.852  rms=0.711  strong_pct=0.000
+  WM_6 (bilat): NCC=0.806  sign_consist=0.670  rms=1.257  strong_pct=0.016
+
+=== done ===
+=== done ===
