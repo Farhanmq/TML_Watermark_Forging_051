@@ -1,0 +1,6 @@
+*.zip
+*.out
+*.err
+*.log
+stage_*/
+__pycache__/
